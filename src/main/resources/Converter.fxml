@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+
+<HBox fx:controller="edu.stevens.friccobo.ConverterController" xmlns:fx="http://javafx.com/fxml">
+    <children>
+        <TextField fx:id="celsiusTemp"/>
+        <Label>Celsius = </Label>
+        <TextField fx:id="fahrenheitTemp"/>
+        <Label>Fahrenheit</Label>
+    </children>
+</HBox>
